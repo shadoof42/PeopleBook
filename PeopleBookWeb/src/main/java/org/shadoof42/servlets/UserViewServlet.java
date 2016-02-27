@@ -14,6 +14,7 @@ public class UserViewServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.addHeader("Content-Type", "application/json; charset=utf-8");
         req.setAttribute("users", this.USER_CACHE.values());
         RequestDispatcher dispatcher = req.getRequestDispatcher("/views/user/ViewUser.jsp");
         dispatcher.forward(req, resp);

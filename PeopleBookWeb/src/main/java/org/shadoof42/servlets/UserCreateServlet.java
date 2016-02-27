@@ -13,11 +13,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class UserCreateServlet extends HttpServlet {
     final AtomicInteger ids = new AtomicInteger();
 
-    private final UserCache USER_CASHE = UserCache.getInstance();
+    private final UserCache USER_CAСHE = UserCache.getInstance();
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.USER_CASHE.add(new User(this.ids.incrementAndGet(),req.getParameter("login"), req.getParameter("email"),""));
+        resp.addHeader("Content-Type", "application/json; charset=utf-8");
+        this.USER_CAСHE.add(new User(USER_CAСHE.generateId(),req.getParameter("login"), req.getParameter("email"), ""));
         resp.sendRedirect(String.format("%s%s",req.getContextPath(),"/user/view"));
     }
 }

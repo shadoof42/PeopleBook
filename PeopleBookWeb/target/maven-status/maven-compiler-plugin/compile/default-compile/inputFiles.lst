@@ -1,8 +1,11 @@
 D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\servlets\UserServlet.java
+D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\store\MemoryStorage.java
 D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\store\UserCache.java
+D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\servlets\UserCreateJsonServlet.java
 D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\servlets\UserEditServlet.java
+D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\form\UserForm.java
 D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\servlets\UserDeleteServlet.java
 D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\servlets\UserViewServlet.java
-D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\servlets\PeopleBookServlet.java
+D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\store\Storage.java
 D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\servlets\TestServlet.java
 D:\Study\PeopleBook\PeopleBookWeb\src\main\java\org\shadoof42\servlets\UserCreateServlet.java

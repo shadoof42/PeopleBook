@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>UserCreateJsonServlet.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">People book Web</a> &gt; <a href="index.source.html" class="el_package">org.shadoof42.servlets</a> &gt; <span class="el_source">UserCreateJsonServlet.java</span></div><h1>UserCreateJsonServlet.java</h1><pre class="source lang-java linenums">package org.shadoof42.servlets;
+
+import org.codehaus.jackson.map.ObjectMapper;
+import org.shadoof42.form.UserForm;
+import org.shadoof42.logic.User;
+import org.shadoof42.store.UserCache;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+<span class="nc" id="L15">public class UserCreateJsonServlet extends HttpServlet {</span>
+<span class="nc" id="L16">    private final UserCache USER_CACHE = UserCache.getInstance();</span>
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+<span class="nc" id="L20">        resp.addHeader(&quot;Content-Type&quot;, &quot;application/json; charset=utf-8&quot;);</span>
+<span class="nc" id="L21">        final ServletOutputStream out = resp.getOutputStream();</span>
+<span class="nc" id="L22">        out.print(new ObjectMapper().writeValueAsString(USER_CACHE.values()));</span>
+<span class="nc" id="L23">        out.flush();</span>
+<span class="nc" id="L24">    }</span>
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+<span class="nc" id="L28">        resp.addHeader(&quot;Content-Type&quot;, &quot;application/json; charset=utf-8&quot;);</span>
+<span class="nc" id="L29">        final UserForm form = new ObjectMapper().readValue(req.getInputStream(), UserForm.class);</span>
+<span class="nc" id="L30">        USER_CACHE.add(new User(USER_CACHE.generateId(), form.getLogin(), &quot;&quot;,&quot;&quot;));</span>
+<span class="nc" id="L31">        resp.getOutputStream().write(&quot;{'result' : 'true'}&quot;.getBytes());</span>
+<span class="nc" id="L32">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

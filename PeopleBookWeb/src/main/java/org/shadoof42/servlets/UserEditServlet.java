@@ -18,6 +18,7 @@ public class UserEditServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.addHeader("Content-Type", "application/json; charset=utf-8");
         req.setAttribute("user", this.USER_CACHE.get(Integer.valueOf(req.getParameter("id"))));
         RequestDispatcher dispatcher = req.getRequestDispatcher("/views/user/EditUser.jsp");
         dispatcher.forward(req, resp);
@@ -25,6 +26,7 @@ public class UserEditServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.addHeader("Content-Type", "application/json; charset=utf-8");
         this.USER_CACHE.edit(new User(this.ids.incrementAndGet(), req.getParameter("login"), req.getParameter("email"),""));
         resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/user/view"));
     }

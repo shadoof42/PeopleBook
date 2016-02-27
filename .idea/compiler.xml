@@ -27,5 +27,8 @@
         <module name="PeopleBookWeb" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pbwb" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

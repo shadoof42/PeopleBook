@@ -68,4 +68,13 @@
         <url-pattern>/user/delete</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>CreateUserJsonServlet</servlet-name>
+        <servlet-class>org.shadoof42.servlets.UserCreateJsonServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreateUserJsonServlet</servlet-name>
+        <url-pattern>/user/json</url-pattern>
+    </servlet-mapping>
 </web-app>
