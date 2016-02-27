@@ -11,7 +11,7 @@ public class User {
     /**
      * Имя пользователя
      */
-    private final String name;
+    private final String login;
     /**
      * Пароль пользователя
      */
@@ -23,12 +23,13 @@ public class User {
     /**
      * Конструктор
      * @param id идентификатор пользователя
-     * @param name имя пользователя
+     * @param login имя пользователя
      * @param passwd пароль пользователя
      */
-    public User(int id, final String name, final String passwd) {
+    public User(final int id, final String login, final String email, final String passwd) {
         this.id = id;
-        this.name = name;
+        this.login = login;
+        this.email = email;
         if (passwd!=null)this.passwd = passwd;
     }
 
@@ -49,11 +50,19 @@ public class User {
     }
 
     /**
+     * Получить идентификатор пользователя
+     * @return идентификатор пользователя
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
      * Получить имя пользователя
      * @return имя пользователя
      */
-    public String getName(){
-        return this.name;
+    public String getLogin(){
+        return this.login;
     }
 
     /**
@@ -81,7 +90,7 @@ public class User {
 
         if (id != user.id) return false;
         if (!email.equals(user.email)) return false;
-        if (!name.equals(user.name)) return false;
+        if (!login.equals(user.login)) return false;
 
         return true;
     }
@@ -89,7 +98,7 @@ public class User {
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + name.hashCode();
+        result = 31 * result + login.hashCode();
         result = 31 * result + email.hashCode();
         return result;
     }

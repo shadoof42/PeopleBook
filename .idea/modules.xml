@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Entities/Entities.iml" filepath="$PROJECT_DIR$/Entities/Entities.iml" />
       <module fileurl="file://$PROJECT_DIR$/PeopleBook.iml" filepath="$PROJECT_DIR$/PeopleBook.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PeopleBookWeb/PeopleBookWeb.iml" filepath="$PROJECT_DIR$/PeopleBookWeb/PeopleBookWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Entities/entities.iml" filepath="$PROJECT_DIR$/Entities/entities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PeopleBookWeb/pbwb.iml" filepath="$PROJECT_DIR$/PeopleBookWeb/pbwb.iml" />
     </modules>
   </component>
 </project>
