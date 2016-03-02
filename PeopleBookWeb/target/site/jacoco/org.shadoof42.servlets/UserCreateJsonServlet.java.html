@@ -25,10 +25,15 @@ import java.io.IOException;
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-<span class="nc" id="L28">        resp.addHeader(&quot;Content-Type&quot;, &quot;application/json; charset=utf-8&quot;);</span>
-<span class="nc" id="L29">        final UserForm form = new ObjectMapper().readValue(req.getInputStream(), UserForm.class);</span>
-<span class="nc" id="L30">        USER_CACHE.add(new User(USER_CACHE.generateId(), form.getLogin(), &quot;&quot;,&quot;&quot;));</span>
-<span class="nc" id="L31">        resp.getOutputStream().write(&quot;{'result' : 'true'}&quot;.getBytes());</span>
-<span class="nc" id="L32">    }</span>
+<span class="nc" id="L28">        resp.setCharacterEncoding(&quot;UTF-8&quot;);</span>
+<span class="nc" id="L29">        req.setCharacterEncoding(&quot;UTF-8&quot;);</span>
+<span class="nc" id="L30">        resp.addHeader(&quot;Content-Type&quot;, &quot;application/json; charset=utf-8&quot;);</span>
+//        System.out.println(&quot;Содержимое: &quot; + req.);
+<span class="nc" id="L32">        final UserForm form = new ObjectMapper().readValue(req.getInputStream(), UserForm.class);</span>
+//        System.out.println(&quot;Содержимое: &quot; + form.getLogin());
+<span class="nc" id="L34">        USER_CACHE.add(new User(USER_CACHE.generateId(), form.getLogin(), &quot;&quot;,&quot;&quot;));</span>
+<span class="nc" id="L35">        resp.getOutputStream().write(&quot;{'result' : 'true'}&quot;.getBytes());</span>
+<span class="nc" id="L36">        System.out.println(&quot;Содержимое: &quot; + form.getLogin());</span>
+<span class="nc" id="L37">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.1.js"></script>
     <script type="text/javascript">
         function createUser() {
             if (validate()) {
@@ -22,7 +22,7 @@
             }
         }
         function loadUsers() {
-            alert("!!!");
+//            alert("!!!");
             $.ajax('user/json', {
                 method : 'get',
                 success: function(data) {

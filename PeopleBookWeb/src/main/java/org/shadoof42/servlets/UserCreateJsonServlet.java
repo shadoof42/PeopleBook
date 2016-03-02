@@ -25,9 +25,14 @@ public class UserCreateJsonServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        resp.setCharacterEncoding("UTF-8");
+//        req.setCharacterEncoding("UTF-8");
         resp.addHeader("Content-Type", "application/json; charset=utf-8");
+//        System.out.println("Содержимое: " + req.);
         final UserForm form = new ObjectMapper().readValue(req.getInputStream(), UserForm.class);
+//        System.out.println("Содержимое: " + form.getLogin());
         USER_CACHE.add(new User(USER_CACHE.generateId(), form.getLogin(), "",""));
         resp.getOutputStream().write("{'result' : 'true'}".getBytes());
+        System.out.println("Содержимое: " + form.getLogin());
     }
 }

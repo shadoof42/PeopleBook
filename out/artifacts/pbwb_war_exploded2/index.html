@@ -9,7 +9,6 @@
         function createUser() {
             if (validate()) {
                 $('#name').css('background-color', '');
-//                alert("name : "+$('#name').val());
                 $.ajax('user/json', {
                     method : 'post',
                     data: JSON.stringify({login : $('#name').val()}),
