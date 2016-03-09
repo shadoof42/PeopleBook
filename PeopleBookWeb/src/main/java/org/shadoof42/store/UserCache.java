@@ -1,6 +1,6 @@
 package org.shadoof42.store;
 
-import org.shadoof42.logic.User;
+import org.shadoof42.models.User;
 
 import java.util.Collection;
 

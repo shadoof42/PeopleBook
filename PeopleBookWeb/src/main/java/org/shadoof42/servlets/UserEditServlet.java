@@ -1,6 +1,6 @@
 package org.shadoof42.servlets;
 
-import org.shadoof42.logic.User;
+import org.shadoof42.models.User;
 import org.shadoof42.store.UserCache;
 
 import javax.servlet.RequestDispatcher;
@@ -27,7 +27,7 @@ public class UserEditServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.addHeader("Content-Type", "application/json; charset=utf-8");
-        this.USER_CACHE.edit(new User(this.ids.incrementAndGet(), req.getParameter("login"), req.getParameter("email"),""));
+        this.USER_CACHE.edit(new User(this.ids.incrementAndGet(), req.getParameter("login"), req.getParameter("email")));
         resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/user/view"));
     }
 }

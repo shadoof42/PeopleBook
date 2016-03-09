@@ -1,6 +1,6 @@
 package org.shadoof42.store;
 
-import org.shadoof42.logic.User;
+import org.shadoof42.models.User;
 import org.shadoof42.service.Settings;
 
 import java.sql.*;
@@ -11,10 +11,10 @@ import java.util.List;
 public class JdbcStorage implements Storage {
     private final Connection connection;
 
-    public JdbcStorage(){
+    public JdbcStorage() {
         final Settings settings = Settings.getInstance();
         try {
-            this.connection = DriverManager.getConnection(settings.value("jdbc.url"),settings.value("jdbc.username"),settings.value("jdbc.password"));
+            this.connection = DriverManager.getConnection(settings.value("jdbc.url"), settings.value("jdbc.username"), settings.value("jdbc.password"));
         } catch (SQLException e) {
             throw new IllegalStateException(e);
         }
@@ -23,10 +23,10 @@ public class JdbcStorage implements Storage {
     @Override
     public Collection<User> values() {
         final List<User> users = new ArrayList<>();
-        try(final Statement statement = this.connection.createStatement();) {
-            final ResultSet rs = statement.executeQuery("SELECT * FROM  user");
-            while (rs.next()){
-                users.add(new User(rs.getInt("id"),rs.getString("login"),rs.getString("email"),rs.getString("passwd")));
+        try (final Statement statement = this.connection.createStatement();
+             final ResultSet rs = statement.executeQuery("select * from client")) {
+            while (rs.next()) {
+                users.add(new User(rs.getInt("uid"), rs.getString("name"), null));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -36,14 +36,18 @@ public class JdbcStorage implements Storage {
 
     @Override
     public int add(User user) {
-        try ( final PreparedStatement statement = this.connection.prepareStatement("INSERT INTO  user (name) VALUES (?)", Statement.RETURN_GENERATED_KEYS);){
-            statement.setString(1,user.getLogin());
+        try (final PreparedStatement statement = this.connection.prepareStatement("insert into client (name) values (?)", Statement.RETURN_GENERATED_KEYS)) {
+            statement.setString(1, user.getLogin());
             statement.executeUpdate();
-            ResultSet generatedKeys = statement.getGeneratedKeys();
-
+            try (ResultSet generatedKeys = statement.getGeneratedKeys()) {
+                if (generatedKeys.next()) {
+                    return generatedKeys.getInt(1);
+                }
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        throw new IllegalStateException("Could not create new user");
     }
 
     @Override
@@ -58,7 +62,17 @@ public class JdbcStorage implements Storage {
 
     @Override
     public User get(int id) {
-        return null;
+        try (final PreparedStatement statement = this.connection.prepareStatement("select * from client where uid=(?)")) {
+            statement.setInt(1, id);
+            try (final ResultSet rs = statement.executeQuery()) {
+                while (rs.next()) {
+                    return new User(rs.getInt("uid"), rs.getString("name"), null);
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        throw new IllegalStateException(String.format("User %s does not exists", id));
     }
 
     @Override
