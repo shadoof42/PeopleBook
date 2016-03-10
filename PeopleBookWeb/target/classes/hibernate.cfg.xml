@@ -11,6 +11,7 @@
         <property name="hibernate.connection.password">111111</property>
 
         <property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+        <property name="hibernate.cache.use_structured_entries">true</property>
         <property name="hibernate.c3p0.min_size">7</property>
         <property name="hibernate.c3p0.max_size">53</property>
         <property name="hibernate.c3p0.timeout">100</property>
@@ -18,7 +19,6 @@
         <property name="hibernate.c3p0.idle_test_period">1000</property>
         <property name="hibernate.c3p0.validate">true</property>
         <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.connection.provider_class">org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider</property>
 
         <!-- List of XML mapping files -->
         <mapping resource="org.shadoof42.models/User.hbm.xml"/>

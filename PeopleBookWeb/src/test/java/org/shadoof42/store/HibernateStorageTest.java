@@ -50,4 +50,12 @@ public class HibernateStorageTest {
         storage.delete(id);
         storage.close();
     }
+    @Test
+    public void getUser() throws Exception{
+        final HibernateStorage storage = new HibernateStorage();
+        User user = storage.get(18);
+        System.out.println(user.getLogin());
+        storage.close();
+    }
+
 }

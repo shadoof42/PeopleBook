@@ -2,54 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ee42583-e242-4fde-8175-1e44cdf67bdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Base.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/HibernateStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/HibernateStorageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Message.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Role.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/target/classes/org/shadoof42/logic/Gender.class" afterPath="$PROJECT_DIR$/Entities/target/classes/org/shadoof42/logic/Gender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/store/MemoryStorage.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/store/MemoryStorage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/store/Storage.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/store/Storage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/target/classes/org/shadoof42/logic/User.class" afterPath="$PROJECT_DIR$/Entities/target/classes/org/shadoof42/logic/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/store/UserCache.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/store/UserCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/servlets/UserCreateJsonServlet.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/servlets/UserCreateJsonServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/test-classes/org/shadoof42/servlets/UserCreateJsonServletTest.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/test-classes/org/shadoof42/servlets/UserCreateJsonServletTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/servlets/UserCreateServlet.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/servlets/UserCreateServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/test-classes/org/shadoof42/servlets/UserCreateServletTest.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/test-classes/org/shadoof42/servlets/UserCreateServletTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/servlets/UserEditServlet.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/servlets/UserEditServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/servlets/UserServlet.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/servlets/UserServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/target/test-classes/org/shadoof42/logic/UserTest.class" afterPath="$PROJECT_DIR$/Entities/target/test-classes/org/shadoof42/logic/UserTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/target/entities-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Entities/target/entities-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/coverage-reports/jacoco-unit.exec" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/coverage-reports/jacoco-unit.exec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/JdbcStorage.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/JdbcStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/MemoryStorage.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/MemoryStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBook.iml" afterPath="$PROJECT_DIR$/PeopleBook.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/Storage.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/Storage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/target/surefire-reports/TEST-org.shadoof42.logic.UserTest.xml" afterPath="$PROJECT_DIR$/Entities/target/surefire-reports/TEST-org.shadoof42.logic.UserTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/TEST-org.shadoof42.servlets.UserCreateJsonServletTest.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/TEST-org.shadoof42.servlets.UserCreateJsonServletTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/TEST-org.shadoof42.servlets.UserCreateServletTest.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/TEST-org.shadoof42.servlets.UserCreateServletTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/UserCache.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/UserCache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateJsonServlet.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateJsonServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateServlet.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserEditServlet.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserEditServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/entities.iml" afterPath="$PROJECT_DIR$/Entities/entities.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/store/HibernateStorage.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/store/HibernateStorage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/test-classes/org/shadoof42/store/HibernateStorageTest.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/test-classes/org/shadoof42/store/HibernateStorageTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/models/Role.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/models/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/HibernateStorage.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/HibernateStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/HibernateStorageTest.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/HibernateStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Message.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Message.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/Message.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/Message.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Role.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Role.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/Role.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/Role.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Role.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Role.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/User.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/User.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/User.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/User.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/User.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/target/surefire-reports/org.shadoof42.logic.UserTest.txt" afterPath="$PROJECT_DIR$/Entities/target/surefire-reports/org.shadoof42.logic.UserTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/org.shadoof42.servlets.UserCreateJsonServletTest.txt" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/org.shadoof42.servlets.UserCreateJsonServletTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/org.shadoof42.servlets.UserCreateServletTest.txt" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/org.shadoof42.servlets.UserCreateServletTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/pbwb.iml" afterPath="$PROJECT_DIR$/PeopleBookWeb/pbwb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/pbwb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pbwb_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PeopleBook.iws" />
@@ -80,42 +48,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - people_book@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="people_book.public" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - people_book@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="people_book.public" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="client" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - people_book@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -124,79 +56,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserCreateJsonServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateJsonServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HibernateStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/HibernateStorage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HibernateStorageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/HibernateStorageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PeopleBookWeb/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6551723">
+            <state vertical-scroll-proportion="0.50163937">
               <caret line="21" column="30" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateStorageTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/HibernateStorageTest.java">
+      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67540985">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Role.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Message.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/User.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -205,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -223,6 +135,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -264,9 +181,6 @@
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/shadoof.properties" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/service/Settings.java" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Base.java" />
-        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Role.java" />
-        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/User.java" />
-        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/HibernateStorage.java" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/Storage.java" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/MemoryStorage.java" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/JdbcStorage.java" />
@@ -274,12 +188,15 @@
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserEditServlet.java" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateServlet.java" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateJsonServlet.java" />
-        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Role.hbm.xml" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Message.java" />
-        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/HibernateStorageTest.java" />
+        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Role.hbm.xml" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Message.hbm.xml" />
+        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/User.java" />
+        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/HibernateStorage.java" />
+        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Role.java" />
+        <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/HibernateStorageTest.java" />
       </list>
     </option>
   </component>
@@ -425,7 +342,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -933,8 +850,8 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -988,62 +905,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.HibernateStorageTest.createUser">
-    <configuration default="false" name="UserTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.shadoof42.logic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="entities" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.shadoof42.logic" />
-      <option name="MAIN_CLASS_NAME" value="org.shadoof42.logic.UserTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserCreateServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.shadoof42.servlets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="pbwb" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="org.shadoof42.servlets" />
-      <option name="MAIN_CLASS_NAME" value="org.shadoof42.servlets.UserCreateServletTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="UserCreateJsonServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1117,6 +978,58 @@
       <option name="PACKAGE_NAME" value="org.shadoof42.store" />
       <option name="MAIN_CLASS_NAME" value="org.shadoof42.store.HibernateStorageTest" />
       <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HibernateStorageTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.shadoof42.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="pbwb" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.shadoof42.store" />
+      <option name="MAIN_CLASS_NAME" value="org.shadoof42.store.HibernateStorageTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HibernateStorageTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.shadoof42.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="pbwb" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.shadoof42.store" />
+      <option name="MAIN_CLASS_NAME" value="org.shadoof42.store.HibernateStorageTest" />
+      <option name="METHOD_NAME" value="getUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1523,7 +1436,7 @@
       <deployment />
       <server-settings>
         <data>
-          <option name="transportHostId" />
+          <option name="transportHostId" value="" />
           <host-id />
         </data>
       </server-settings>
@@ -1662,19 +1575,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserTest (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserCreateServletTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserCreateJsonServletTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.createUser" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserCreateJsonServletTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.createUser" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCreate" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.getUser" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.createUser" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserCreateJsonServletTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserCreateServletTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.getUser" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCreate" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserCreateJsonServletTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1697,16 +1610,17 @@
       <workItem from="1456641799963" duration="6718000" />
       <workItem from="1456812501211" duration="4375000" />
       <workItem from="1456903927663" duration="741000" />
-      <workItem from="1457512555966" duration="12082000" />
+      <workItem from="1457512555966" duration="12213000" />
+      <workItem from="1457590388478" duration="6838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75206000" />
+    <option name="totallyTimeSpent" value="82175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1717,19 +1631,18 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3336887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29032257" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29032257" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18017058" sideWeight="0.6638796" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.3361204" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1739,6 +1652,7 @@
       <window_info id="IView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1902,9 +1816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1961,9 +1872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1971,9 +1879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1981,33 +1886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.058553386">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#151#152#0" expanded="false" />
-            <element signature="e#176#177#0" expanded="false" />
-            <element signature="e#209#210#0" expanded="false" />
-            <element signature="e#237#238#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09758898">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#163#164#0" expanded="false" />
-            <element signature="e#190#191#0" expanded="false" />
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#262#263#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2026,9 +1904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15614237">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2036,15 +1911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#2559#2560#0" expanded="true" />
-            <element signature="e#2586#2587#0" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
-            <element signature="e#2655#2656#0" expanded="true" />
-            <marker date="1457524893869" expanded="true" signature="-1:-1" placeholder="select * fro..client..." />
-            <marker date="1457524893869" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1457524893869" expanded="true" signature="-1:-1" placeholder="select * fro..client..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2052,7 +1918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2060,19 +1925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="113" selection-start-line="20" selection-start-column="113" selection-end-line="20" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateJsonServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2080,7 +1932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34819898">
           <caret line="1525" column="26" selection-start-line="1525" selection-start-column="26" selection-end-line="1525" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2088,15 +1939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34819898">
           <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6551723">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2104,7 +1946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2122,12 +1963,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="161.5" y="195.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="162.0" y="196.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
             <Category>Columns</Category>
+            <Category>Key columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -2135,69 +1977,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11147541">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/HibernateStorage.java">
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/servlets/UserCreateJsonServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.69344264">
+          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5262295">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19508196">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Role.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.16721311">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.13934426">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Message.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2205,18 +2017,71 @@
     <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/Message.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16721311">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19508196">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/store/HibernateStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/HibernateStorageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67540985">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeopleBookWeb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50163937">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

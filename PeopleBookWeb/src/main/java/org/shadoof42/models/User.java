@@ -60,4 +60,14 @@ public class User extends Base {
     public void setEmail(String email) {
         this.email = email;
     }
+
+//    @Override
+//    public String toString() {
+//        return "User{" +
+//                "login='" + login + '\'' +
+//                ", email='" + email + '\'' +
+//                ", role=" + role +
+//                ", messages=" + messages +
+//                '}';
+//    }
 }

@@ -6,6 +6,8 @@ package org.shadoof42.models;
 public class Role extends Base {
     private String name;
 
+//    public Role(){}
+
     public String getName() {
         return name;
     }

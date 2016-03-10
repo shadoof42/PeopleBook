@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="org.shadoof42.models.User" table="client">
+    <class name="org.shadoof42.models.User" table="users">
         <meta attribute="class-description">
             This class contains the user detail.
         </meta>
@@ -18,9 +18,9 @@
 
         <many-to-one name="role" column="role_id" class="org.shadoof42.models.Role" cascade="save-update"/>
 
-        <set name="messages">
+        <bag name="messages" table="messages" lazy="false" inverse="true" cascade="all">
             <key column="user_id" not-null="true"/>
             <one-to-many class="org.shadoof42.models.Message"/>
-        </set>
+        </bag>
     </class>
 </hibernate-mapping>
