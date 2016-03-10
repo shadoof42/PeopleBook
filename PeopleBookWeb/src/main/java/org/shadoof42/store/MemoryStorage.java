@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class MemoryStorage implements Storage{
+public class MemoryStorage implements Storage<User>{
     private final AtomicInteger ids = new AtomicInteger();
 
     private final ConcurrentHashMap<Integer, User> users = new ConcurrentHashMap<Integer, User>();

@@ -13,7 +13,7 @@ import java.util.Collection;
 /**
  * Created by Shadoof on 09.03.2016.
  */
-public class HibernateStorage implements Storage {
+public class HibernateStorage implements Storage<User> {
     private final SessionFactory factory;
 
     public HibernateStorage() {

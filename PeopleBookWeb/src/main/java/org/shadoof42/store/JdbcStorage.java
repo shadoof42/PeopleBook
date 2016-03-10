@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class JdbcStorage implements Storage {
+public class JdbcStorage implements Storage<User> {
     private final Connection connection;
 
     public JdbcStorage() {

@@ -3,13 +3,13 @@ package org.shadoof42.store;
 import org.shadoof42.models.User;
 import java.util.Collection;
 
-public interface Storage {
+public interface Storage<T> {
 
-    public Collection<User> values();
+    public Collection<T> values();
 
-    public int add(final User user);
+    public int add(final T t);
 
-    public void edit(final User user);
+    public void edit(final T t);
 
     public void delete(final int id);
 

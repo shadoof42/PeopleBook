@@ -4,7 +4,7 @@ import org.shadoof42.models.User;
 
 import java.util.Collection;
 
-public class UserCache implements Storage{
+public class UserCache implements Storage<User>{
     private static final UserCache INSTANCE = new UserCache();
 
     private final Storage storage = new MemoryStorage();
