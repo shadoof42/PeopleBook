@@ -30,7 +30,7 @@ public class UserCreateServletTest extends Mockito {
         verify(requset,atLeast(1)).getParameter("email");
         Assert.assertFalse(cache.values().isEmpty());
 
-        cache.delete(cache.findByLogin("test").getId());
+//        cache.delete(cache.findByLogin("test").getId());
 
     }
 
