@@ -22,4 +22,12 @@ public class Message extends Base {
     public void setText(String text) {
         this.text = text;
     }
+
+    @Override
+    public String toString() {
+        return "Message{" +
+                "user=" + user +
+                ", text='" + text + '\'' +
+                '}';
+    }
 }

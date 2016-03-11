@@ -75,7 +75,7 @@ public class JdbcStorage implements Storage<User> {
         throw new IllegalStateException(String.format("User %s does not exists", id));
     }
 
-    @Override
+//    @Override
     public User findByLogin(String login) {
         return null;
     }

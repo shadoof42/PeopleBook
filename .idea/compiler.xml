@@ -35,7 +35,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="entities" target="1.5" />
-      <module name="pbwb" target="1.7" />
+      <module name="pbwb" target="1.8" />
       <module name="PeopleBook" target="1.5" />
     </bytecodeTargetLevel>
   </component>

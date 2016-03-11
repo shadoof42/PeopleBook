@@ -13,6 +13,6 @@ public class DbTool {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
         Storages storage = context.getBean(Storages.class);
         System.out.println(storage.roleStorage.values());
-        storage.roleStorage.add(new Role());
+        storage.roleStorage.add(new Role("test_admin"));
     }
 }

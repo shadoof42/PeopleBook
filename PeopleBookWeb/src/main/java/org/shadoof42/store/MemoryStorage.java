@@ -38,7 +38,7 @@ public class MemoryStorage implements Storage<User>{
         return this.users.get(id);
     }
 
-    @Override
+//    @Override
     public User findByLogin(final String login) {
         for (final User user : users.values()) {
             if (user.getLogin().equals(login)) {

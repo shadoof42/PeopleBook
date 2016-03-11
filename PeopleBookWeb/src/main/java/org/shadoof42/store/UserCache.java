@@ -35,12 +35,14 @@ public class UserCache implements Storage<User>{
 
     @Override
     public User get(final int id) {
-        return this.storage.get(id);
+//        return this.storage.get(id);
+        return null;
     }
 
-    @Override
+//    @Override
     public User findByLogin(final String login) {
-        return this.storage.findByLogin(login);
+//        return this.storage.findByLogin(login);
+        return null;
     }
 
     @Override

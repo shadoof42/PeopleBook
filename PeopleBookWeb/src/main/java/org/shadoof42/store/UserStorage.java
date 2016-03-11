@@ -90,7 +90,7 @@ public class UserStorage implements Storage<User> {
         });
     }
 
-    @Override
+//    @Override
     public User findByLogin(final String login) {
         return transaction(new Command<User>() {
             @Override

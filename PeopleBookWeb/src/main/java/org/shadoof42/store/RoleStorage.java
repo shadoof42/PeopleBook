@@ -2,8 +2,11 @@ package org.shadoof42.store;
 
 import org.shadoof42.models.Role;
 import org.shadoof42.models.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate4.HibernateTemplate;
 import org.springframework.stereotype.Repository;
 
+import javax.transaction.Transactional;
 import java.util.Collection;
 
 /**
@@ -11,35 +14,43 @@ import java.util.Collection;
  */
 @Repository
 public class RoleStorage implements RoleDAO {
+
+    private final HibernateTemplate template;
+
+    @Autowired
+    public RoleStorage(final HibernateTemplate template) {
+        this.template = template;
+    }
+
     @Override
     public Collection<Role> values() {
-        return null;
+        return (Collection<Role>) this.template.find("from Role");
     }
-
+    @Transactional
     @Override
     public int add(Role role) {
-        return 0;
+        return (int) this.template.save(role);
     }
-
+    @Transactional
     @Override
     public void edit(Role role) {
-
+        this.template.update(role);
     }
-
+    @Transactional
     @Override
     public void delete(int id) {
-
+        this.template.delete(id);
     }
 
     @Override
-    public User get(int id) {
+    public Role get(int id) {
         return null;
     }
 
-    @Override
-    public User findByLogin(String login) {
-        return null;
-    }
+//    @Override
+//    public User findByLogin(String login) {
+//        return null;
+//    }
 
     @Override
     public int generateId() {

@@ -13,9 +13,7 @@ public interface Storage<T> {
 
     public void delete(final int id);
 
-    public User get(final int id);
-
-    public User findByLogin(final String login) ;
+    public T get(final int id);
 
     public int generateId();
 

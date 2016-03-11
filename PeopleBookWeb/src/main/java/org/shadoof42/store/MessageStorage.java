@@ -11,6 +11,8 @@ import java.util.Collection;
  */
 @Repository
 public class MessageStorage implements Storage<Message> {
+
+
     @Override
     public Collection<Message> values() {
         return null;
@@ -32,14 +34,14 @@ public class MessageStorage implements Storage<Message> {
     }
 
     @Override
-    public User get(int id) {
+    public Message get(int id) {
         return null;
     }
 
-    @Override
-    public User findByLogin(String login) {
-        return null;
-    }
+//    @Override
+//    public User findByLogin(String login) {
+//        return null;
+//    }
 
     @Override
     public int generateId() {

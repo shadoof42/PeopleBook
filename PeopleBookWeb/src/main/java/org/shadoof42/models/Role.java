@@ -6,7 +6,11 @@ package org.shadoof42.models;
 public class Role extends Base {
     private String name;
 
-//    public Role(){}
+    public Role(){}
+
+    public Role(final String name){
+        this.name = name;
+    }
 
     public String getName() {
         return name;
@@ -14,5 +18,12 @@ public class Role extends Base {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
