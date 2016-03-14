@@ -1,4 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+People Book,org.shadoof42.controllers,AdminController,28,3,0,0,5,1,2,1,2,1
 People Book,org.shadoof42.servlets,UserViewServlet,25,0,0,0,7,0,2,0,2,0
 People Book,org.shadoof42.servlets,UserCreateJsonServlet,68,0,0,0,13,0,3,0,3,0
 People Book,org.shadoof42.servlets,TestServlet,21,0,0,0,8,0,2,0,2,0
@@ -6,7 +7,7 @@ People Book,org.shadoof42.servlets,UserServlet,102,0,2,0,20,0,5,0,4,0
 People Book,org.shadoof42.servlets,UserCreateServlet,0,47,0,0,0,7,0,2,0,2
 People Book,org.shadoof42.servlets,UserEditServlet,72,0,0,0,12,0,4,0,4,0
 People Book,org.shadoof42.servlets,UserDeleteServlet,29,0,0,0,5,0,3,0,3,0
-People Book,org.shadoof42.store,RoleStorage,30,6,0,0,9,3,7,1,7,1
+People Book,org.shadoof42.store,RoleStorage,22,21,0,0,6,6,5,3,5,3
 People Book,org.shadoof42.store,Storages,0,12,0,0,0,5,0,1,0,1
 People Book,org.shadoof42.store,UserStorage.new UserStorage.Command() {...},11,0,0,0,2,0,2,0,2,0
 People Book,org.shadoof42.store,UserStorage.new UserStorage.Command() {...},0,15,0,0,0,3,0,2,0,2
@@ -23,8 +24,8 @@ People Book,org.shadoof42.store,UserStorage,45,66,0,0,5,15,5,7,5,7
 People Book,org.shadoof42.store,MemoryStorage,56,32,4,0,11,7,7,4,5,4
 People Book,org.shadoof42.form,UserForm,10,0,0,0,4,0,3,0,3,0
 People Book,org.shadoof42.models,Base,0,10,0,0,0,4,0,3,0,3
-People Book,org.shadoof42.models,User,0,47,0,0,0,21,0,11,0,11
-People Book,org.shadoof42.models,Message,19,17,0,0,1,7,1,5,1,5
-People Book,org.shadoof42.models,Role,20,10,0,0,4,4,2,3,2,3
+People Book,org.shadoof42.models,User,61,86,10,0,10,25,7,12,2,12
+People Book,org.shadoof42.models,Message,64,26,8,0,9,12,7,6,3,6
+People Book,org.shadoof42.models,Role,27,30,6,0,5,8,5,5,2,5
 People Book,org.shadoof42.tools,DbTool,27,0,0,0,6,0,2,0,2,0
 People Book,org.shadoof42.service,Settings,36,0,0,0,10,0,4,0,4,0
