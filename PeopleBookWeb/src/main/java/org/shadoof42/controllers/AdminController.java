@@ -4,6 +4,9 @@ import org.shadoof42.models.Role;
 import org.shadoof42.store.Storage;
 import org.shadoof42.store.Storages;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -26,6 +29,8 @@ public class AdminController {
 
     @RequestMapping(value = "roles", method = RequestMethod.GET)
     public String showRoles(ModelMap model){
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        String login = auth.getName();
         model.addAttribute("roles", storages.roleStorage.values());
         return "admin/roles";
     }

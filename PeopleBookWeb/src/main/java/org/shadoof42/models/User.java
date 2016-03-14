@@ -20,6 +20,11 @@ public class User extends Base {
      */
     private Role role;
     /**
+     * Пароль пользователя
+     */
+    private String password;
+
+    /**
      * Список сообщений пользователя
      */
     private List<Message> messages;
