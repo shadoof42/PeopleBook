@@ -43,13 +43,4 @@ public class MessageStorage implements Storage<Message> {
 //        return null;
 //    }
 
-    @Override
-    public int generateId() {
-        return 0;
-    }
-
-    @Override
-    public void close() {
-
-    }
 }

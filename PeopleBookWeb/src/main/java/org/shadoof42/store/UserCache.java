@@ -45,13 +45,13 @@ public class UserCache implements Storage<User>{
         return null;
     }
 
-    @Override
+//    @Override
     public int generateId() {
-        return this.storage.generateId();
+        return 0;
     }
 
-    @Override
+//    @Override
     public void close() {
-        this.storage.close();
+//        this.storage.close();
     }
 }

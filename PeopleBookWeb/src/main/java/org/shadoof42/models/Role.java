@@ -12,6 +12,10 @@ public class Role extends Base {
 
     public Role(){}
 
+    /**
+     * Параметризированный конструктор роли
+     * @param name имя роли
+     */
     public Role(final String name){
         this.name = name;
     }
@@ -46,12 +50,12 @@ public class Role extends Base {
 
         Role role = (Role) o;
 
-        return name.equals(role.name);
+        return name.equals(role.name) && id==id;
 
     }
 
     @Override
     public int hashCode() {
-        return name.hashCode();
+        return name.hashCode()+31*Integer.hashCode(id);
     }
 }

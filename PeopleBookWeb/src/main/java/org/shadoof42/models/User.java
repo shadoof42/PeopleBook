@@ -32,10 +32,30 @@ public class User extends Base {
     public User() {
     }
 
+    /**
+     * Параметризированный конструктор пользователя
+     * @param login логин
+     * @param email адрес ЭП
+     * @param role роль
+     */
     public User(final String login, final String email, final Role role) {
         this.login = login;
         this.email = email;
         this.role = role;
+    }
+
+    /**
+     * Параметризированный конструктор пользователя
+     * @param login логин
+     * @param email адрес ЭП
+     * @param role роль
+     * @param password пароль
+     */
+    public User(final String login, final String email, final Role role, final String password) {
+        this.login = login;
+        this.email = email;
+        this.role = role;
+        this.password = password;
     }
     /**
      * Конструктор с параметрами
@@ -112,6 +132,20 @@ public class User extends Base {
     public void setEmail(String email) {
         this.email = email;
     }
+    /**
+     * Получить пароль
+     * @return пароль
+     */
+    public String getPassword() {
+        return password;
+    }
+    /**
+     * Сменить пароль
+     * @param password новый пароль
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     @Override
     public String toString() {
@@ -129,7 +163,7 @@ public class User extends Base {
         if (o == null || getClass() != o.getClass()) return false;
 
         User user = (User) o;
-
+        if (id!=user.getId()) return false;
         if (!login.equals(user.login)) return false;
         if (!email.equals(user.email)) return false;
         return role.equals(user.role);

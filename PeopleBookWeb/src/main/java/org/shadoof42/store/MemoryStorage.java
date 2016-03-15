@@ -48,12 +48,8 @@ public class MemoryStorage implements Storage<User>{
         throw new IllegalStateException(String.format("Login %s not found", login));
     }
 
-    @Override
+//    @Override
     public int generateId() {
         return this.ids.incrementAndGet();
-    }
-
-    @Override
-    public void close() {
     }
 }

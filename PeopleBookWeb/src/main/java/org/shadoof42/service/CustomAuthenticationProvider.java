@@ -29,7 +29,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         String login = authentication.getName();
         String password = authentication.getCredentials().toString();
-        final User user = storages.userStorage.findByLogin(login);
+        final User user = storages.userStorage.findByAuth(login,password);
         if(user!=null){
             List<GrantedAuthority> grantedAuths = new ArrayList<>();
             grantedAuths.add(new SimpleGrantedAuthority(user.getRole().getName()));

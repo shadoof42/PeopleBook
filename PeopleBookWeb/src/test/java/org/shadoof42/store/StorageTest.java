@@ -25,15 +25,15 @@ import static org.junit.Assert.assertNotNull;
 @WebAppConfiguration
 public class StorageTest {
 
-    @Autowired
-    private UserStorage storage;
+//    @Autowired
+//    private UserStorage storage;
     @Autowired
     private Storages storages;
 
-    @Test
-    public void initStorage() {
-        assertNotNull(storage);
-    }
+//    @Test
+//    public void initStorage() {
+//        assertNotNull(storage);
+//    }
 
     @Test
     public void initStorages(){
@@ -59,8 +59,16 @@ public class StorageTest {
         storages.roleStorage.delete(user.getRole().getId());
     }
 
-//    @Test
-//    public void roleValuesTest(){
-//        System.out.println(storages.roleStorage.values());
-//    }
+    @Test
+    public void findByAuthTest(){
+        Role test_role = new Role("test_user");
+        String login = "Иванов Иван Иваныч";
+        String password = "111111";
+        final int user_id = storages.userStorage.add(new User(login, "ivanov@gmail.com", test_role,password));
+        User user = storages.userStorage.get(user_id);
+        System.out.println(user);
+        assertEquals(user.getId(), storages.userStorage.findByAuth(login,password).getId());
+        storages.userStorage.delete(user_id);
+        storages.roleStorage.delete(user.getRole().getId());
+    }
 }

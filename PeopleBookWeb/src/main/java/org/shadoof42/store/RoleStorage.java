@@ -27,9 +27,6 @@ public class RoleStorage implements RoleDAO {
         return (Collection<Role>) this.template.find("from Role");
     }
 
-    public Collection<Role> toOutput() {
-        return (Collection<Role>) this.template.find("from Role");
-    }
     @Transactional
     @Override
     public int add(Role role) {
@@ -56,13 +53,4 @@ public class RoleStorage implements RoleDAO {
 //        return null;
 //    }
 
-    @Override
-    public int generateId() {
-        return 0;
-    }
-
-    @Override
-    public void close() {
-
-    }
 }

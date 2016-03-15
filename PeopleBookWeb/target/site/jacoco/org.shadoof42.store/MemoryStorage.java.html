@@ -48,13 +48,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 <span class="nc" id="L48">        throw new IllegalStateException(String.format(&quot;Login %s not found&quot;, login));</span>
     }
 
-    @Override
+//    @Override
     public int generateId() {
-<span class="fc" id="L53">        return this.ids.incrementAndGet();</span>
+<span class="nc" id="L53">        return this.ids.incrementAndGet();</span>
     }
-
-    @Override
-    public void close() {
-<span class="nc" id="L58">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.4.201502262128</span></div></body></html>

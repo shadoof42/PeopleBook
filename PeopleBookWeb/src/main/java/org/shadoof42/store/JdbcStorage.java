@@ -80,12 +80,12 @@ public class JdbcStorage implements Storage<User> {
         return null;
     }
 
-    @Override
+//    @Override
     public int generateId() {
         return 0;
     }
 
-    @Override
+//    @Override
     public void close() {
         try {
             connection.close();
