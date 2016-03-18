@@ -12,5 +12,6 @@
             <generator class="identity"/>
         </id>
         <property name="name" column="name" type="string"/>
+        <property name="hidden" column="hidden" type="boolean"/>
     </class>
 </hibernate-mapping>
