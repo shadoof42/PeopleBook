@@ -10,14 +10,19 @@ public class Role extends Base {
      */
     private String name;
 
-    public Role(){}
+    /**
+     * Признак сокрытости
+     */
+    private Boolean hidden;
+
+    public Role(){hidden=false;}
 
     /**
      * Параметризированный конструктор роли
      * @param name имя роли
      */
     public Role(final String name){
-        this.name = name;
+        this.name = name;hidden=false;
     }
 
     /**
@@ -34,6 +39,14 @@ public class Role extends Base {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Boolean getHidden() {
+        return hidden;
+    }
+
+    public void setHidden(Boolean hidden) {
+        this.hidden = hidden;
     }
 
     @Override

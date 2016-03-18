@@ -116,7 +116,7 @@ public class UserStorage implements Storage<User> {
 
     @Override
     public Collection<User> values() {
-        return transaction(session -> session.createQuery("from User ").list());
+        return transaction(session -> session.createQuery("from User as user order by user.id").list());
     }
 
     @Override

@@ -1,2 +1,4 @@
+org\shadoof42\store\UserStorageTest.class
 org\shadoof42\servlets\UserCreateJsonServletTest.class
 org\shadoof42\servlets\UserCreateServletTest.class
+org\shadoof42\store\StorageTest.class

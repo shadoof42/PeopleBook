@@ -71,4 +71,23 @@ public class StorageTest {
         storages.userStorage.delete(user_id);
         storages.roleStorage.delete(user.getRole().getId());
     }
+    @Test
+    public void updateRole(){
+        Role role = new Role("test_role");
+        final int role_id = storages.roleStorage.add(role);
+        role = storages.roleStorage.get(role_id);
+        System.out.println(role_id);
+        role.setName("test_role1");
+        storages.roleStorage.edit(role);
+        Role same_role=storages.roleStorage.get(role_id);
+        System.out.println(same_role + " " + same_role.getId());
+        storages.roleStorage.delete(same_role.getId());
+
+    }
+//    @Test
+//    public void vieRole(){
+//        List<Role> role_list = (List<Role>) storages.roleStorage.values();
+//        System.out.println(role_list.size());
+//
+//    }
 }

@@ -24,7 +24,7 @@ public class RoleStorage implements RoleDAO {
 
     @Override
     public Collection<Role> values() {
-        return (Collection<Role>) this.template.find("from Role");
+        return (Collection<Role>) this.template.find("from Role as role where role.hidden=false order by role.id ");
     }
 
     @Transactional
