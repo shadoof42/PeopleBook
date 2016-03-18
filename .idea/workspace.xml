@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ee42583-e242-4fde-8175-1e44cdf67bdc" name="Default" comment="CRUD. Начало&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/models/Role.class" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org/shadoof42/models/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/Role.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/Role.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/org.shadoof42.store/index.html" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/org.shadoof42.store/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/org.shadoof42.store/index.source.html" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/org.shadoof42.store/index.source.html" />
+    <list default="true" id="8ee42583-e242-4fde-8175-1e44cdf67bdc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PeopleBook.iws" />
@@ -1651,7 +1646,7 @@
       <workItem from="1458021647207" duration="14155000" />
       <workItem from="1458107957636" duration="13698000" />
       <workItem from="1458196144451" duration="19924000" />
-      <workItem from="1458280920018" duration="21314000" />
+      <workItem from="1458280920018" duration="21356000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate sucsessful HQL">
       <created>1457613937596</created>
@@ -1707,15 +1702,21 @@
       <option name="project" value="LOCAL" />
       <updated>1458306805287</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CRUD. Начало&#10;">
+      <created>1458306860051</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1458306860051</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201490000" />
+    <option name="totallyTimeSpent" value="201532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="4" width="1936" height="1036" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1731,7 +1732,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18017058" sideWeight="0.45652175" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18017058" sideWeight="0.54347825" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18017058" sideWeight="0.54347825" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18017058" sideWeight="0.44827586" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
