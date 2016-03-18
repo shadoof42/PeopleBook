@@ -1817,7 +1817,7 @@
       <workItem from="1458021647207" duration="14155000" />
       <workItem from="1458107957636" duration="13698000" />
       <workItem from="1458196144451" duration="19924000" />
-      <workItem from="1458280920018" duration="21498000" />
+      <workItem from="1458280920018" duration="21508000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate sucsessful HQL">
       <created>1457613937596</created>
@@ -1885,11 +1885,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458306902373</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CRUD. Начало&#10;">
+      <created>1458307043742</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1458307043742</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201674000" />
+    <option name="totallyTimeSpent" value="201684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="4" width="1936" height="1036" extended-state="0" />
