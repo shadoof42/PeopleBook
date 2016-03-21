@@ -35,7 +35,6 @@
             <tr valign="top">
                 <td>${role.name}</td>
                 <td>
-                        <%--<form action=""></form>--%>
                     <a href="${pageContext.servletContext.contextPath}/admin/delete/${role.id}" method="GET">Удалить</a>
                     <a href="${pageContext.servletContext.contextPath}/admin/edit/${role.id}" method="GET">Редактировать</a>
                 </td>

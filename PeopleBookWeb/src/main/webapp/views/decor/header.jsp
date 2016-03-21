@@ -9,13 +9,14 @@
 <html>
 <body>
 <div id="header">
-    <div><h1 class="main_h1" align="center">Записная книжка</h1></div>
-    <div>
+    <div><h1 class="main_h1" align="center">Записная книжка</h1>
         <form action="admin/roles">
             <input class="edit" type="submit" align="center" value="Редактировать роли">
         </form>
+        <form action="admin/users">
+            <input class="edit" type="submit" align="center" value="Редактировать пользователей">
+        </form>
     </div>
-    <div></div>
 </div>
 </body>
 </html>

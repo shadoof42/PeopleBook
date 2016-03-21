@@ -18,7 +18,7 @@
 
         <property name="password" column="password" type="string"/>
 
-        <many-to-one name="role" column="role_id" class="org.shadoof42.models.Role" lazy="false" cascade="save-update"/>
+        <many-to-one name="role" column="role_id" class="org.shadoof42.models.Role" lazy="false" cascade="none"/>
 
         <bag name="messages" table="messages" lazy="false" inverse="true" cascade="all">
             <key column="user_id" not-null="true"/>

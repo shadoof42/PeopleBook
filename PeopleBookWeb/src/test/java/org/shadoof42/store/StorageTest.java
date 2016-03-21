@@ -43,47 +43,47 @@ public class StorageTest {
     /**
      * Создаем пользователя, присваиваем ему письма и роль, удаляем все.
      */
-    @Test
-    public void createAndDeleteUserWithRole(){
-        Role test_role = new Role("test_admin");
-        final int user_id = storages.userStorage.add(new User("Иванов Иван Иваныч", "ivanov@gmail.com", test_role));
-        User user = storages.userStorage.get(user_id);
-        System.out.println(user);
-        List<Message> messages = new ArrayList<>();
-        messages.add(new Message(user,"text"));
-        messages.add(new Message(user,"new text"));
-        user.setMessages(messages);
-        storages.userStorage.edit(user);
-        assertEquals(2,storages.userStorage.get(user_id).getMessages().size());
-        storages.userStorage.delete(user_id);
-        storages.roleStorage.delete(user.getRole().getId());
-    }
-
-    @Test
-    public void findByAuthTest(){
-        Role test_role = new Role("test_user");
-        String login = "Иванов Иван Иваныч";
-        String password = "111111";
-        final int user_id = storages.userStorage.add(new User(login, "ivanov@gmail.com", test_role,password));
-        User user = storages.userStorage.get(user_id);
-        System.out.println(user);
-        assertEquals(user.getId(), storages.userStorage.findByAuth(login,password).getId());
-        storages.userStorage.delete(user_id);
-        storages.roleStorage.delete(user.getRole().getId());
-    }
-    @Test
-    public void updateRole(){
-        Role role = new Role("test_role");
-        final int role_id = storages.roleStorage.add(role);
-        role = storages.roleStorage.get(role_id);
-        System.out.println(role_id);
-        role.setName("test_role1");
-        storages.roleStorage.edit(role);
-        Role same_role=storages.roleStorage.get(role_id);
-        System.out.println(same_role + " " + same_role.getId());
-        storages.roleStorage.delete(same_role.getId());
-
-    }
+//    @Test
+//    public void createAndDeleteUserWithRole(){
+//        Role test_role = new Role("test_admin");
+//        final int user_id = storages.userStorage.add(new User("Иванов Иван Иваныч", "ivanov@gmail.com", test_role));
+//        User user = storages.userStorage.get(user_id);
+//        System.out.println(user);
+//        List<Message> messages = new ArrayList<>();
+//        messages.add(new Message(user,"text"));
+//        messages.add(new Message(user,"new text"));
+//        user.setMessages(messages);
+//        storages.userStorage.edit(user);
+//        assertEquals(2,storages.userStorage.get(user_id).getMessages().size());
+//        storages.userStorage.delete(user_id);
+//        storages.roleStorage.delete(user.getRole().getId());
+//    }
+//
+//    @Test
+//    public void findByAuthTest(){
+//        Role test_role = new Role("test_user");
+//        String login = "Иванов Иван Иваныч";
+//        String password = "111111";
+//        final int user_id = storages.userStorage.add(new User(login, "ivanov@gmail.com", test_role,password));
+//        User user = storages.userStorage.get(user_id);
+//        System.out.println(user);
+//        assertEquals(user.getId(), storages.userStorage.findByAuth(login,password).getId());
+//        storages.userStorage.delete(user_id);
+//        storages.roleStorage.delete(user.getRole().getId());
+//    }
+//    @Test
+//    public void updateRole(){
+//        Role role = new Role("test_role");
+//        final int role_id = storages.roleStorage.add(role);
+//        role = storages.roleStorage.get(role_id);
+//        System.out.println(role_id);
+//        role.setName("test_role1");
+//        storages.roleStorage.edit(role);
+//        Role same_role=storages.roleStorage.get(role_id);
+//        System.out.println(same_role + " " + same_role.getId());
+//        storages.roleStorage.delete(same_role.getId());
+//
+//    }
 //    @Test
 //    public void vieRole(){
 //        List<Role> role_list = (List<Role>) storages.roleStorage.values();

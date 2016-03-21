@@ -18,9 +18,9 @@
 <div align="center">
     <p>Старое имя роли: ${role.name} его id: ${role.id}</p>
     <form:form action="${pageContext.servletContext.contextPath}/admin/edit/${role.id}" commandName="role" method="POST">
-        Новое имя: <form:input path="name"></form:input>
-        <input type="submit" align="center" value="Принять"/>
-    </form:form>
+    Новое имя: <form:input path="name"></form:input>
+    <input type="submit" align="center" value="Принять"/>
+</form:form>
 
 </div>
 </body>

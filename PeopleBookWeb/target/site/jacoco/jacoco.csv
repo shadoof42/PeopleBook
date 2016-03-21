@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-People Book,org.shadoof42.controllers,AdminController,139,3,0,0,20,1,5,1,5,1
+People Book,org.shadoof42.controllers,AdminController,246,3,0,0,37,1,10,1,10,1
 People Book,org.shadoof42.servlets,UserViewServlet,25,0,0,0,7,0,2,0,2,0
 People Book,org.shadoof42.servlets,UserServlet,102,0,2,0,20,0,5,0,4,0
 People Book,org.shadoof42.servlets,UserCreateServlet,0,47,0,0,0,7,0,2,0,2
