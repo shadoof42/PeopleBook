@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ee42583-e242-4fde-8175-1e44cdf67bdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/views/admin/createUser.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/views/admin/users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/coverage-reports/jacoco-unit.exec" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/coverage-reports/jacoco-unit.exec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/.sessions.html" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/.sessions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/controllers/AdminController.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/java/org/shadoof42/controllers/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/StorageTest.java" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/test/java/org/shadoof42/store/StorageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/TEST-org.shadoof42.servlets.UserCreateJsonServletTest.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/TEST-org.shadoof42.servlets.UserCreateJsonServletTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/TEST-org.shadoof42.servlets.UserCreateServletTest.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/TEST-org.shadoof42.servlets.UserCreateServletTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/User.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/resources/org.shadoof42.models/User.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/views/admin/editRole.jsp" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/views/admin/editRole.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/views/decor/header.jsp" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/views/decor/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/index.html" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/jacoco.csv" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/jacoco.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/jacoco.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/site/jacoco/jacoco.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/org.shadoof42.servlets.UserCreateJsonServletTest.txt" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/org.shadoof42.servlets.UserCreateJsonServletTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/org.shadoof42.servlets.UserCreateServletTest.txt" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/surefire-reports/org.shadoof42.servlets.UserCreateServletTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/views/admin/roles.jsp" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/views/admin/roles.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/PeopleBookWeb/src/main/webapp/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PeopleBookWeb_war_exploded/css/style.css" afterPath="$PROJECT_DIR$/out/artifacts/PeopleBookWeb_war_exploded/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/User.hbm.xml" afterPath="$PROJECT_DIR$/PeopleBookWeb/target/classes/org.shadoof42.models/User.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PeopleBook.iws" />
@@ -1869,7 +1850,7 @@
       <workItem from="1458107957636" duration="13698000" />
       <workItem from="1458196144451" duration="19924000" />
       <workItem from="1458280920018" duration="21632000" />
-      <workItem from="1458542406424" duration="22213000" />
+      <workItem from="1458542406424" duration="22238000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate sucsessful HQL">
       <created>1457613937596</created>
@@ -1949,11 +1930,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458307053621</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="CRUD. Продолжение&#10;">
+      <created>1458571237325</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1458571237325</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224021000" />
+    <option name="totallyTimeSpent" value="224046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="4" width="1936" height="1036" extended-state="0" />
@@ -2015,7 +2002,8 @@
     <MESSAGE value="spring sucsessful contine4.5&#10;" />
     <MESSAGE value="Успешно аутентифицируется&#10;" />
     <MESSAGE value="CRUD. Начало&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD. Начало&#10;" />
+    <MESSAGE value="CRUD. Продолжение&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD. Продолжение&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
