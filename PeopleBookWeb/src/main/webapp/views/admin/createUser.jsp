@@ -18,21 +18,33 @@
 <div class="center">
     <c:if test="${create}">
         <h1>Создание нового пользователя</h1>
+        <form:form action="${pageContext.servletContext.contextPath}/admin/new_user" method="post" commandName="user">
+            <div>Логин: <form:input path="login"/></div>
+            <div>E-mail: <form:input path="email"/></div>
+            <div>
+                Роль: <form:select path="role.id">
+                <form:options items="${roles}" itemValue="id" itemLabel="name"></form:options>
+            </form:select>
+            </div>
+            <div>Пароль: <form:input path="password"/></div>
+            <div><input type="submit" align="center" value="Принять"/></div>
+        </form:form>
     </c:if>
     <c:if test="${!create}">
         <h1>Редактирование пользователя ${user.login}</h1>
+        <form:form action="${pageContext.servletContext.contextPath}/admin/user_edit/${user.id}" method="post" commandName="user">
+            <div>Логин: <form:input path="login"/></div>
+            <div>E-mail: <form:input path="email"/></div>
+            <div>
+                Роль: <form:select path="role.id">
+                <form:options items="${roles}" itemValue="id" itemLabel="name"></form:options>
+            </form:select>
+            </div>
+            <div>Пароль: <form:input path="password"/></div>
+            <div><input type="submit" align="center" value="Принять"/></div>
+        </form:form>
     </c:if>
-    <form:form action="${pageContext.servletContext.contextPath}/admin/new_user" method="post" commandName="user">
-        <div>Логин: <form:input path="login"/></div>
-        <div>E-mail: <form:input path="email"/></div>
-        <div>
-            Роль: <form:select path="role.id">
-            <form:options items="${roles}" itemValue="id" itemLabel="name"></form:options>
-        </form:select>
-        </div>
-        <div>Пароль: <form:input path="password"/></div>
-        <div><input type="submit" align="center" value="Принять"/></div>
-    </form:form>
+
 </div>
 </body>
 </html>

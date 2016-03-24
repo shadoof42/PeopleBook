@@ -49,7 +49,7 @@
 
     <form action="${pageContext.servletContext.contextPath}/admin/new_user" method="GET">
         <%--Имя <input type="text" name="name" value="${user.name}"/>--%>
-        <input type="submit" align="center" value="Создать нового пользователя"/>
+        <div><input id="main_" type="submit" align="center" value="Создать нового пользователя"/></div>
 
         <%--<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>--%>
     </form>

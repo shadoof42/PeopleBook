@@ -28,6 +28,10 @@ public class User extends Base {
      * Список сообщений пользователя
      */
     private List<Message> messages;
+    /**
+     * Список пользователей
+     */
+    private List<Abonent> abonents;
 
     public User() {
     }
@@ -145,6 +149,14 @@ public class User extends Base {
      */
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public List<Abonent> getAbonents() {
+        return abonents;
+    }
+
+    public void setAbonents(List<Abonent> abonents) {
+        this.abonents = abonents;
     }
 
     @Override

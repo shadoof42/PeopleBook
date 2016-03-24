@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="org.shadoof42.models.Adress" table="adreses">
+        <meta attribute="class-description">
+            This class contains the role detail.
+        </meta>
+        <id name="id" type="long" column="uid">
+            <generator class="identity"/>
+        </id>
+        <property name="post_index" column="post_index" type="string"/>
+        <property name="city" column="city" type="string"/>
+        <property name="street" column="street" type="string"/>
+        <property name="house" column="house" type="string"/>
+        <property name="apartment" column="apartment" type="string"/>
+        <many-to-one name="abonent" column="abonent_uid" class="org.shadoof42.models.Abonent" lazy="false" />
+
+    </class>
+</hibernate-mapping>

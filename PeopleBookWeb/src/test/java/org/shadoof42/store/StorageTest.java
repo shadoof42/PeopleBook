@@ -4,6 +4,7 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.shadoof42.models.Message;
+import org.shadoof42.models.PhoneType;
 import org.shadoof42.models.Role;
 import org.shadoof42.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +39,12 @@ public class StorageTest {
     @Test
     public void initStorages(){
         assertNotNull(storages);
+    }
+
+
+    @Test
+    public void createPhone(){
+
     }
 
     /**
@@ -90,4 +97,5 @@ public class StorageTest {
 //        System.out.println(role_list.size());
 //
 //    }
+
 }

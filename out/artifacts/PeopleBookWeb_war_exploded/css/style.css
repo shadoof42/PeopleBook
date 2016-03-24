@@ -108,3 +108,19 @@ table{
     margin-left: 10px;
 
 }
+input[type=submit].mainbutton{
+    padding:5px 15px;
+    background:slategrey;
+    border:1px dotted;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=text] {
+    padding:5px 15px;
+    background:slategrey;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

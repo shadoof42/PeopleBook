@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="org.shadoof42.models.Phone" table="phones">
+        <meta attribute="class-description">
+            This class contains the phone detail.
+        </meta>
+        <id name="id" type="long" column="uid">
+            <generator class="identity"/>
+        </id>
+        <property name="phone" column="phone" type="string"/>
+        <many-to-one name="abonent" column="abonent_uid" class="org.shadoof42.models.Abonent" lazy="false"/>
+        <many-to-one name="phoneType" column="type_uid" class="org.shadoof42.models.PhoneType" lazy="false"/>
+    </class>
+</hibernate-mapping>

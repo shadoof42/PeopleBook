@@ -12,7 +12,14 @@
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/style.css" type="text/css"/>
 </head>
 <body>
-<jsp:include page="decor/header.jsp" flush="true"/>
+    <div>
+        <h1>Главная страница приложения</h1>
+        <form action="${pageContext.servletContext.contextPath}/user/abonent_list">
+            <input type="submit" value="Перейти к списку абонентов"/>
+        </form>
+
+    </div>
+<%--<jsp:include page="decor/header.jsp" flush="true"/>--%>
 <%--<jsp:include page="decor/menu.jsp" flush="true"/>--%>
 <%--<div id="content">содержимое</div>--%>
 <%--<jsp:include page="decor/news.jsp" flush="true"/>--%>

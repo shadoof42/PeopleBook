@@ -96,15 +96,25 @@ public class AdminController {
     @RequestMapping(value = "/user_delete/{id}", method = RequestMethod.GET)
     public String deleteUser(@PathVariable Integer id) {
         storages.userStorage.delete(id);
-        return "redirect:users";
+        return "redirect:/admin/users";
     }
 
     @RequestMapping(value = "/user_edit/{id}", method = RequestMethod.GET)
     public String editUserView(@PathVariable Integer id, ModelMap model) {
         model.addAttribute("create",false);
         model.put("user",storages.userStorage.get(id));
+        model.addAttribute("roles",storages.roleStorage.values());
+        return "/admin/createUser";
+    }
+    @RequestMapping(value = "/user_edit/{id}", method = RequestMethod.POST)
+    public String editUser(@PathVariable Integer id, ModelMap model, @ModelAttribute("user") User user) throws UnsupportedEncodingException {
+        user.setId(id);
+        System.out.println("Новый пользователь " + user);
+        user.setLogin(new String (user.getLogin().getBytes("ISO-8859-1"), "UTF-8"));
+        user.setEmail(new String(user.getEmail().getBytes("ISO-8859-1"), "UTF-8"));
+        user.setPassword(new String(user.getPassword().getBytes("ISO-8859-1"), "UTF-8"));
+        storages.userStorage.edit(user);
         return "redirect:/admin/users";
     }
-
 
 }

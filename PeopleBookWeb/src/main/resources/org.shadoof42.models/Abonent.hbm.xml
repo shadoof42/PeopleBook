@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="org.shadoof42.models.Abonent" table="abonents">
+        <meta attribute="class-description">
+
+        </meta>
+        <id name="id" type="long" column="uid">
+            <generator class="identity"/>
+        </id>
+        <property name="first_name" column="first_name" type="string"/>
+        <property name="last_name" column="last_name" type="string"/>
+        <property name="second_name" column="second_name" type="string"/>
+        <property name="email" column="email" type="string"/>
+        <property name="gender" column="gender" type="boolean"/>
+        <property name="coments" column="coments" type="text"/>
+        <many-to-one name="group" column="group_uid" class="org.shadoof42.models.Group" lazy="false"/>
+        <many-to-one name="user" column="user_uid" class="org.shadoof42.models.User" lazy="false"/>
+        <bag name="adresses" table="adreses" lazy="false" inverse="true" cascade="all">
+            <key column="abonent_uid" not-null="true"/>
+            <one-to-many class="org.shadoof42.models.Adress"/>
+        </bag>
+        <bag name="phones" table="phones" lazy="false" inverse="true" cascade="all">
+            <key column="abonent_uid" not-null="true"/>
+            <one-to-many class="org.shadoof42.models.Phone"/>
+        </bag>
+    </class>
+</hibernate-mapping>

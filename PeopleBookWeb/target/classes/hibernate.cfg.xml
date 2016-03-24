@@ -6,11 +6,9 @@
    <session-factory>
        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://127.0.0.1:5432/people_book</property>
-        <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">111111</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/people_book</property>
 
-        <property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+    <property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
         <property name="hibernate.cache.use_structured_entries">true</property>
         <property name="hibernate.c3p0.min_size">7</property>
         <property name="hibernate.c3p0.max_size">53</property>
@@ -24,5 +22,11 @@
         <mapping resource="org.shadoof42.models/User.hbm.xml"/>
         <mapping resource="org.shadoof42.models/Role.hbm.xml"/>
         <mapping resource="org.shadoof42.models/Message.hbm.xml"/>
-    </session-factory>
+        <mapping resource="org.shadoof42.models/Group.hbm.xml"/>
+        <mapping resource="org.shadoof42.models/PhoneType.hbm.xml"/>
+        <mapping resource="org.shadoof42.models/Phone.hbm.xml"/>
+        <mapping resource="org.shadoof42.models/Adress.hbm.xml"/>
+        <mapping resource="org.shadoof42.models/Abonent.hbm.xml"/>
+
+   </session-factory>
 </hibernate-configuration>

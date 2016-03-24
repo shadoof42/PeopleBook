@@ -24,5 +24,9 @@
             <key column="user_id" not-null="true"/>
             <one-to-many class="org.shadoof42.models.Message"/>
         </bag>
+        <bag name="abonents" table="abonents" lazy="false" inverse="true" cascade="all">
+            <key column="user_uid" not-null="true"/>
+            <one-to-many class="org.shadoof42.models.Abonent"/>
+        </bag>
     </class>
 </hibernate-mapping>
