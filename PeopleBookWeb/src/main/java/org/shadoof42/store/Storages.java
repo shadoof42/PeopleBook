@@ -12,16 +12,21 @@ public class Storages {
     public final UserStorage userStorage;
     public final RoleDAO roleStorage;
     public final MessageStorage messageStorage;
-//    public final PhoneStorage phoneStorage;
+    public final PhoneTypeStorage phoneTypeStorage;
+    public final PhoneStorage phoneStorage;
 //    public final AbonentStorage abonentStorage;
 
     @Autowired
-    public Storages(final UserStorage userStorage, final RoleDAO roleStorage, final MessageStorage messageStorage) {
+    public Storages(final UserStorage userStorage, final RoleDAO roleStorage,
+                    final MessageStorage messageStorage, final PhoneTypeStorage phoneTypeStorage,
+                    final PhoneStorage phoneStorage) {
         this.userStorage = userStorage;
         this.roleStorage = roleStorage;
         this.messageStorage = messageStorage;
 //        this.phoneStorage = phoneStorage;
 //        this.phoneStorage = phoneStorage;
 //        this.abonentStorage = abonentStorage;
+        this.phoneTypeStorage = phoneTypeStorage;
+        this.phoneStorage = phoneStorage;
     }
 }

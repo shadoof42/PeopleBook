@@ -31,7 +31,7 @@ public class User extends Base {
     /**
      * Список пользователей
      */
-    private List<Abonent> abonents;
+//    private List<Abonent> abonents;
 
     public User() {
     }
@@ -151,13 +151,13 @@ public class User extends Base {
         this.password = password;
     }
 
-    public List<Abonent> getAbonents() {
-        return abonents;
-    }
-
-    public void setAbonents(List<Abonent> abonents) {
-        this.abonents = abonents;
-    }
+//    public List<Abonent> getAbonents() {
+//        return abonents;
+//    }
+//
+//    public void setAbonents(List<Abonent> abonents) {
+//        this.abonents = abonents;
+//    }
 
     @Override
     public String toString() {

@@ -44,27 +44,32 @@ public class StorageTest {
 
     @Test
     public void createPhone(){
-
+        final int id = storages.phoneTypeStorage.add(new PhoneType("Тестовый тип"));
+        PhoneType phoneType = storages.phoneTypeStorage.get(id);
+        phoneType.setName("Тестовый");
+        System.out.println(phoneType.getName());
+        storages.phoneTypeStorage.edit(phoneType);
+        storages.phoneTypeStorage.delete(id);
     }
 
     /**
      * Создаем пользователя, присваиваем ему письма и роль, удаляем все.
      */
-//    @Test
-//    public void createAndDeleteUserWithRole(){
-//        Role test_role = new Role("test_admin");
-//        final int user_id = storages.userStorage.add(new User("Иванов Иван Иваныч", "ivanov@gmail.com", test_role));
-//        User user = storages.userStorage.get(user_id);
-//        System.out.println(user);
-//        List<Message> messages = new ArrayList<>();
-//        messages.add(new Message(user,"text"));
-//        messages.add(new Message(user,"new text"));
-//        user.setMessages(messages);
-//        storages.userStorage.edit(user);
-//        assertEquals(2,storages.userStorage.get(user_id).getMessages().size());
-//        storages.userStorage.delete(user_id);
-//        storages.roleStorage.delete(user.getRole().getId());
-//    }
+    @Test
+    public void createAndDeleteUserWithRole(){
+        final int role_id  = storages.roleStorage.add(new Role("test_admin"));
+        Role test_role = storages.roleStorage.get(role_id);
+        final int user_id = storages.userStorage.add(new User("Иванов Иван Иваныч", "ivanov@gmail.com", test_role));
+        User user = storages.userStorage.get(user_id);
+        System.out.println(user);
+        List<Message> messages = new ArrayList<>();
+        messages.add(new Message(user,"text"));
+        messages.add(new Message(user,"new text"));
+        user.setMessages(messages);
+        storages.userStorage.edit(user);
+        storages.userStorage.delete(user_id);
+        storages.roleStorage.delete(user.getRole().getId());
+    }
 //
 //    @Test
 //    public void findByAuthTest(){

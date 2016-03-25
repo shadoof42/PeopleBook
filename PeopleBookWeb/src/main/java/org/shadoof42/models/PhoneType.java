@@ -14,6 +14,14 @@ public class PhoneType extends Base {
 //        this.name = name;
 //    }
 
+
+    public PhoneType(final String name) {
+        this.name = name;
+    }
+
+    public PhoneType() {
+    }
+
     public String getName() {
         return name;
     }
